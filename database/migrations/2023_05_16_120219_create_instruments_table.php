@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('instruments', function (Blueprint $table) {
             $table->id();
-            $table->string('instrument');
+            $table->string('value');
             $table->timestamps();
         });
     }
