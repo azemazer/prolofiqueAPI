@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string("title");
             $table->string("description");
             $table->integer("length");
-            $table->date("date");
+            $table->string("date");
             $table->integer("price");
             $table->string("url");
             $table->timestamps();
